@@ -155,7 +155,7 @@ const Home = () => {
           <div className="about-header">
             <h2 className="about-title">About Our Clinic</h2>
             <p className="about-subtitle">
-              Providing exceptional dental care with compassion and expertise
+              Your trusted partner for comprehensive dental health and beautiful smiles
             </p>
           </div>
           
@@ -164,10 +164,10 @@ const Home = () => {
               <div className="about-section">
                 <h3 className="about-section-title">Our Mission</h3>
                 <p className="about-description">
-                  At Dental Clinic, we are committed to providing the highest quality 
-                  dental care in a comfortable and welcoming environment. Our mission is to 
-                  help our patients achieve optimal oral health and better quality of life through 
-                  personalized treatment plans and state-of-the-art technology.
+                  At Dental Clinic, we are dedicated to delivering exceptional dental services 
+                  in a warm, comfortable environment. Our mission is to help you achieve a 
+                  healthy, beautiful smile through personalized care, advanced technology, 
+                  and compassionate treatment that puts your comfort first.
                 </p>
               </div>
               
@@ -183,10 +183,11 @@ const Home = () => {
                       />
                     </div>
                     <div className="about-feature-content">
-                      <h4 className="about-feature-title">Experienced Team</h4>
+                      <h4 className="about-feature-title">Expert Dental Team</h4>
                       <p className="about-feature-text">
-                        Our clinic team of dental professionals has years of experience and 
-                        continues to stay updated with the latest dental care techniques.
+                        Our skilled dentists and hygienists bring years of experience in 
+                        general dentistry, cosmetic procedures, and specialized treatments 
+                        to ensure you receive the best possible care.
                       </p>
                     </div>
                   </div>
@@ -200,10 +201,11 @@ const Home = () => {
                       />
                     </div>
                     <div className="about-feature-content">
-                      <h4 className="about-feature-title">Modern Technology</h4>
+                      <h4 className="about-feature-title">Advanced Dental Technology</h4>
                       <p className="about-feature-text">
-                        Our clinic uses the latest dental technology and equipment to ensure 
-                        precise, comfortable, and efficient treatments.
+                        We utilize cutting-edge dental equipment including digital X-rays, 
+                        laser dentistry, and modern sterilization techniques to provide 
+                        safe, efficient, and comfortable treatments.
                       </p>
                     </div>
                   </div>
@@ -217,10 +219,11 @@ const Home = () => {
                       />
                     </div>
                     <div className="about-feature-content">
-                      <h4 className="about-feature-title">Patient-Centered Care</h4>
+                      <h4 className="about-feature-title">Personalized Dental Care</h4>
                       <p className="about-feature-text">
-                        Every patient is unique, and our clinic creates personalized treatment 
-                        plans that address individual dental needs and concerns.
+                        We believe every smile is unique. Our team creates customized treatment 
+                        plans tailored to your specific dental needs, lifestyle, and goals, 
+                        ensuring optimal results and patient satisfaction.
                       </p>
                     </div>
                   </div>
