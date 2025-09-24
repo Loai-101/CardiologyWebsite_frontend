@@ -31,8 +31,7 @@ class ApiService {
       url,
       method: options.method || 'GET',
       endpoint,
-      hasToken: !!token,
-      baseURL: this.baseURL
+      hasToken: !!token
     });
 
     const config = {

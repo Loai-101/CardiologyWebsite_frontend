@@ -10,9 +10,9 @@ if (!fs.existsSync(envPath)) {
   console.log('❌ .env file not found!');
   console.log('📝 Please create a .env file with the following variables:');
   console.log(`
-REACT_APP_API_URL=http://localhost:5000/api
+REACT_APP_API_URL=https://cardiology-website-backend.vercel.app/api
 REACT_APP_BACKEND_URL=http://localhost:5000
-REACT_APP_APP_NAME=Cardiology Hospital
+REACT_APP_APP_NAME=Dental Clinic
 REACT_APP_VERSION=1.0.0
 REACT_APP_NODE_ENV=development
   `);
