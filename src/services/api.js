@@ -1,4 +1,5 @@
 // API Configuration - Updated to use correct backend URL
+// Force rebuild to fix CORS issues
 const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://cardiology-website-backend.vercel.app/api';
 
 // API service class
