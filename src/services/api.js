@@ -1,10 +1,11 @@
-// API Configuration
+// API Configuration - Updated to use correct backend URL
 const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://cardiology-website-backend.vercel.app/api';
 
 // API service class
 class ApiService {
   constructor() {
     this.baseURL = API_BASE_URL;
+    console.log('🔧 API Service initialized with URL:', this.baseURL);
   }
 
   // Get auth token from localStorage
