@@ -93,7 +93,7 @@ const Home = () => {
               Welcome to Dental Clinic
             </h1>
             <p className="hero-description">
-              Professional cardiac care hospital for you and your family
+              Professional dental care clinic for you and your family
             </p>
             <div className="hero-buttons">
               <Link to="/services" className="hero-button hero-button-primary">
@@ -153,9 +153,9 @@ const Home = () => {
       <section id="about" className={`about ${isVisible ? 'about-visible' : ''}`}>
         <div className="about-container">
           <div className="about-header">
-            <h2 className="about-title">About Our Hospital</h2>
+            <h2 className="about-title">About Our Clinic</h2>
             <p className="about-subtitle">
-              Providing exceptional cardiac care with compassion and expertise
+              Providing exceptional dental care with compassion and expertise
             </p>
           </div>
           
@@ -165,8 +165,8 @@ const Home = () => {
                 <h3 className="about-section-title">Our Mission</h3>
                 <p className="about-description">
                   At Dental Clinic, we are committed to providing the highest quality 
-                  cardiac care in a comfortable and welcoming environment. Our mission is to 
-                  help our patients achieve optimal heart health and better quality of life through 
+                  dental care in a comfortable and welcoming environment. Our mission is to 
+                  help our patients achieve optimal oral health and better quality of life through 
                   personalized treatment plans and state-of-the-art technology.
                 </p>
               </div>
@@ -185,8 +185,8 @@ const Home = () => {
                     <div className="about-feature-content">
                       <h4 className="about-feature-title">Experienced Team</h4>
                       <p className="about-feature-text">
-                        Our hospital team of cardiac professionals has years of experience and 
-                        continues to stay updated with the latest cardiac care techniques.
+                        Our clinic team of dental professionals has years of experience and 
+                        continues to stay updated with the latest dental care techniques.
                       </p>
                     </div>
                   </div>
@@ -202,7 +202,7 @@ const Home = () => {
                     <div className="about-feature-content">
                       <h4 className="about-feature-title">Modern Technology</h4>
                       <p className="about-feature-text">
-                        Our hospital uses the latest cardiac technology and equipment to ensure 
+                        Our clinic uses the latest dental technology and equipment to ensure 
                         precise, comfortable, and efficient treatments.
                       </p>
                     </div>
@@ -219,8 +219,8 @@ const Home = () => {
                     <div className="about-feature-content">
                       <h4 className="about-feature-title">Patient-Centered Care</h4>
                       <p className="about-feature-text">
-                        Every patient is unique, and our hospital creates personalized treatment 
-                        plans that address individual cardiac needs and concerns.
+                        Every patient is unique, and our clinic creates personalized treatment 
+                        plans that address individual dental needs and concerns.
                       </p>
                     </div>
                   </div>
