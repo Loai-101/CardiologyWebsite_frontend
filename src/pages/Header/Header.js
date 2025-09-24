@@ -59,7 +59,7 @@ const Header = () => {
         <div className="header-logo">
           <Link to="/" className="header-logo-link" onClick={closeMobileMenu}>
             <OptimizedImage 
-              src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1757918173/East-Kent-Cardiology-Logo-Design-Freelance-Graphic-Designer-Margate-Thanet-Kent_zhnxm4.webp" 
+              src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1756213851/Dental-Logo-Design_i2ir19.jpg" 
               alt="Dental Clinic Logo" 
               className="header-logo-image"
               lazy={false}

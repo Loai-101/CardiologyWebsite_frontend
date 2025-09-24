@@ -31,7 +31,7 @@ const Loading = ({ onLoadingComplete }) => {
       <div className="loading-content">
         <div className="loading-logo">
           <OptimizedImage 
-            src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1757918173/East-Kent-Cardiology-Logo-Design-Freelance-Graphic-Designer-Margate-Thanet-Kent_zhnxm4.webp" 
+            src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1756213851/Dental-Logo-Design_i2ir19.jpg" 
             alt="Dental Clinic Logo" 
             className="loading-logo-image"
             lazy={false}
