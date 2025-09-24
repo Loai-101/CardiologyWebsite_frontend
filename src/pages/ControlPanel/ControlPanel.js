@@ -326,7 +326,7 @@ const ControlPanel = () => {
         <div className="control-panel-header">
           <h1 className="control-panel-title">Control Panel</h1>
           <p className="control-panel-subtitle">
-            Administrative control center for Cardiology Hospital
+            Administrative control center for Dental Clinic
           </p>
         </div>
 

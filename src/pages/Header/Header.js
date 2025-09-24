@@ -60,11 +60,11 @@ const Header = () => {
           <Link to="/" className="header-logo-link" onClick={closeMobileMenu}>
             <OptimizedImage 
               src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1757918173/East-Kent-Cardiology-Logo-Design-Freelance-Graphic-Designer-Margate-Thanet-Kent_zhnxm4.webp" 
-              alt="Cardiology Hospital Logo" 
+              alt="Dental Clinic Logo" 
               className="header-logo-image"
               lazy={false}
             />
-            <h1 className="header-title">Cardiology Hospital</h1>
+            <h1 className="header-title">Dental Clinic</h1>
           </Link>
         </div>
         
@@ -85,14 +85,6 @@ const Header = () => {
                 className={`header-nav-link ${location.pathname === '/services' ? 'header-nav-link-active' : ''}`}
               >
                 Services
-              </Link>
-            </li>
-            <li className="header-nav-item">
-              <Link
-                to="/insurance"
-                className={`header-nav-link ${location.pathname === '/insurance' ? 'header-nav-link-active' : ''}`}
-              >
-                Insurance
               </Link>
             </li>
             <li className="header-nav-item">
@@ -208,15 +200,6 @@ const Header = () => {
                 onClick={closeMobileMenu}
               >
                 Services
-              </Link>
-            </li>
-            <li className="mobile-nav-item">
-              <Link
-                to="/insurance"
-                className={`mobile-nav-link ${location.pathname === '/insurance' ? 'mobile-nav-link-active' : ''}`}
-                onClick={closeMobileMenu}
-              >
-                Insurance
               </Link>
             </li>
             <li className="mobile-nav-item">

@@ -12,7 +12,7 @@
     "heart-health",
     "cardiac-care"
   ],
-  "author": "Cardiology Hospital",
+  "author": "Dental Clinic",
   "homepage": "https://cardiology-hospital.vercel.app",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",

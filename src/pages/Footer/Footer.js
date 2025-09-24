@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-section footer-about">
-          <h3>Cardiology Hospital</h3>
+          <h3>Dental Clinic</h3>
           <p>Your trusted partner for a healthy heart and better quality of life. We are committed to providing exceptional cardiac care in a comfortable environment.</p>
                      <div className="footer-social">
              <a href="#" className="social-icon">
@@ -78,7 +78,7 @@ const Footer = () => {
 
              <div className="footer-bottom">
          <div className="footer-bottom-content">
-           <span>&copy; 2023 Cardiology Hospital. All rights reserved.</span>
+           <span>&copy; 2023 Dental Clinic. All rights reserved.</span>
            <span className="footer-separator">|</span>
            <a href="#" className="footer-link">Privacy Policy</a>
            <span className="footer-separator">|</span>

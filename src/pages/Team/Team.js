@@ -31,6 +31,114 @@ const Team = () => {
     };
   }, []);
 
+  const insuranceCompanies = [
+    {
+      id: 1,
+      name: "Insurance Partner 1",
+      logo: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1756214789/Screenshot_2025-08-26_100619_asydkc.png"
+    },
+    {
+      id: 2,
+      name: "Insurance Partner 2",
+      logo: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1756214788/Screenshot_2025-08-26_100615_tsh8v9.png"
+    },
+    {
+      id: 3,
+      name: "Insurance Partner 3",
+      logo: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1756214669/Screenshot_2025-08-26_100610_mvz8fh.png"
+    },
+    {
+      id: 4,
+      name: "Insurance Partner 4",
+      logo: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1756214648/Screenshot_2025-08-26_100603_qkgl74.png"
+    },
+    {
+      id: 5,
+      name: "Insurance Partner 5",
+      logo: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1756214646/Screenshot_2025-08-26_100556_kdq4gs.png"
+    },
+    {
+      id: 6,
+      name: "Insurance Partner 6",
+      logo: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1756214645/Screenshot_2025-08-26_100548_goqlap.png"
+    },
+    {
+      id: 7,
+      name: "Insurance Partner 7",
+      logo: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1756214643/Screenshot_2025-08-26_100508_bdzrip.png"
+    },
+    {
+      id: 8,
+      name: "Insurance Partner 8",
+      logo: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1756214642/Screenshot_2025-08-26_100504_apkp45.png"
+    },
+    {
+      id: 9,
+      name: "Insurance Partner 9",
+      logo: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1756214640/Screenshot_2025-08-26_100453_pixp4x.png"
+    },
+    {
+      id: 10,
+      name: "Insurance Partner 10",
+      logo: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1756214639/Screenshot_2025-08-26_100447_xw0eje.png"
+    },
+    {
+      id: 11,
+      name: "Insurance Partner 11",
+      logo: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1756214637/Screenshot_2025-08-26_100434_w3cezq.png"
+    },
+    {
+      id: 12,
+      name: "Insurance Partner 12",
+      logo: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1756214638/Screenshot_2025-08-26_100440_usd5wq.png"
+    },
+    {
+      id: 13,
+      name: "Insurance Partner 13",
+      logo: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1756214634/Screenshot_2025-08-26_100427_kyc87h.png"
+    },
+    {
+      id: 14,
+      name: "Insurance Partner 14",
+      logo: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1756214630/Screenshot_2025-08-26_100709_gs7r9l.png"
+    },
+    {
+      id: 15,
+      name: "Insurance Partner 15",
+      logo: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1756214629/Screenshot_2025-08-26_100657_rfjhbf.png"
+    },
+    {
+      id: 16,
+      name: "Insurance Partner 16",
+      logo: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1756214628/Screenshot_2025-08-26_100651_q2c1ri.png"
+    },
+    {
+      id: 17,
+      name: "Insurance Partner 17",
+      logo: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1756214626/Screenshot_2025-08-26_100647_soxihb.png"
+    },
+    {
+      id: 18,
+      name: "Insurance Partner 18",
+      logo: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1756214625/Screenshot_2025-08-26_100642_ildv0s.png"
+    },
+    {
+      id: 19,
+      name: "Insurance Partner 19",
+      logo: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1756214623/Screenshot_2025-08-26_100635_f6k4sy.png"
+    },
+    {
+      id: 20,
+      name: "Insurance Partner 20",
+      logo: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1756214622/Screenshot_2025-08-26_100629_a4elw2.png"
+    },
+    {
+      id: 21,
+      name: "Insurance Partner 21",
+      logo: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1756214621/Screenshot_2025-08-26_100625_osawij.png"
+    }
+  ];
+
   const doctors = [
     {
       id: 1,
@@ -157,6 +265,52 @@ const Team = () => {
           </div>
         </div>
       </section>
+
+      {/* Insurance Companies Moving Bar */}
+      <div className="insurance-slider">
+        <div className="insurance-track">
+          {/* First set of logos */}
+              {insuranceCompanies.map((company) => (
+                <div 
+                  key={company.id} 
+                  className="insurance-logo"
+                >
+                  <img 
+                    src={company.logo} 
+                    alt={company.name}
+                    className="logo-image"
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                      e.target.nextSibling.style.display = 'flex';
+                    }}
+                  />
+                  <div className="logo-fallback" style={{display: 'none'}}>
+                    <span className="fallback-text">{company.name}</span>
+                  </div>
+                </div>
+              ))}
+              {/* Duplicate set for seamless loop */}
+              {insuranceCompanies.map((company) => (
+                <div 
+                  key={`duplicate-${company.id}`} 
+                  className="insurance-logo"
+                >
+                  <img 
+                    src={company.logo} 
+                    alt={company.name}
+                    className="logo-image"
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                      e.target.nextSibling.style.display = 'flex';
+                    }}
+                  />
+                  <div className="logo-fallback" style={{display: 'none'}}>
+                    <span className="fallback-text">{company.name}</span>
+                  </div>
+                </div>
+              ))}
+        </div>
+      </div>
 
       {/* Doctor Popup */}
       {selectedDoctor && (

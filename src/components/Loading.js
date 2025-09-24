@@ -32,12 +32,12 @@ const Loading = ({ onLoadingComplete }) => {
         <div className="loading-logo">
           <OptimizedImage 
             src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1757918173/East-Kent-Cardiology-Logo-Design-Freelance-Graphic-Designer-Margate-Thanet-Kent_zhnxm4.webp" 
-            alt="Cardiology Hospital Logo" 
+            alt="Dental Clinic Logo" 
             className="loading-logo-image"
             lazy={false}
           />
         </div>
-        <h1 className="loading-title">Cardiology Hospital</h1>
+        <h1 className="loading-title">Dental Clinic</h1>
       </div>
     </div>
   );

@@ -282,7 +282,7 @@ const Signup = () => {
           <div className="signup-header">
             <h2 className="signup-title">Create Your Account</h2>
             <p className="signup-subtitle">
-              Join Cardiology Hospital to manage your health information
+              Join Dental Clinic to manage your health information
             </p>
           </div>
           

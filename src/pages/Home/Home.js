@@ -90,7 +90,7 @@ const Home = () => {
         <div className="hero-container">
           <div className="hero-content">
             <h1 className="hero-title">
-              Welcome to Cardiology Hospital
+              Welcome to Dental Clinic
             </h1>
             <p className="hero-description">
               Professional cardiac care hospital for you and your family
@@ -111,16 +111,16 @@ const Home = () => {
       <section className="moving-text-section">
         <div className="moving-text-container">
           <div className="moving-text-content">
-            <span className="moving-text-item">Cardiology Hospital - Your heart health is our priority.</span>
-            <span className="moving-text-item">At Cardiology Hospital, a healthy heart means a better quality of life.</span>
-            <span className="moving-text-item">Cardiology Hospital - Advanced technology and specialized cardiologists.</span>
-            <span className="moving-text-item">Cardiology Hospital provides comprehensive, compassionate cardiac care.</span>
-            <span className="moving-text-item">Cardiology Hospital - Because your heart is precious, we offer exceptional care.</span>
-            <span className="moving-text-item">From routine checkups to complex procedures at Cardiology Hospital.</span>
-            <span className="moving-text-item">Cardiology Hospital cares for your heart with expertise and compassion.</span>
-            <span className="moving-text-item">Cardiology Hospital - A healthy heart is the foundation of a happy life.</span>
-            <span className="moving-text-item">Cardiology Hospital uses the latest equipment for safe treatment and excellent outcomes.</span>
-            <span className="moving-text-item">Cardiology Hospital - Restoring your heart health and improving your quality of life.</span>
+            <span className="moving-text-item">Dental Clinic - Your oral health is our priority.</span>
+            <span className="moving-text-item">At Dental Clinic, a healthy smile means a better quality of life.</span>
+            <span className="moving-text-item">Dental Clinic - Advanced technology and specialized dentists.</span>
+            <span className="moving-text-item">Dental Clinic provides comprehensive, compassionate dental care.</span>
+            <span className="moving-text-item">Dental Clinic - Because your smile is precious, we offer exceptional care.</span>
+            <span className="moving-text-item">From routine checkups to complex procedures at Dental Clinic.</span>
+            <span className="moving-text-item">Dental Clinic cares for your smile with expertise and compassion.</span>
+            <span className="moving-text-item">Dental Clinic - A healthy smile is the foundation of a happy life.</span>
+            <span className="moving-text-item">Dental Clinic uses the latest equipment for safe treatment and excellent outcomes.</span>
+            <span className="moving-text-item">Dental Clinic - Restoring your oral health and improving your quality of life.</span>
           </div>
         </div>
       </section>
@@ -164,7 +164,7 @@ const Home = () => {
               <div className="about-section">
                 <h3 className="about-section-title">Our Mission</h3>
                 <p className="about-description">
-                  At Cardiology Hospital, we are committed to providing the highest quality 
+                  At Dental Clinic, we are committed to providing the highest quality 
                   cardiac care in a comfortable and welcoming environment. Our mission is to 
                   help our patients achieve optimal heart health and better quality of life through 
                   personalized treatment plans and state-of-the-art technology.

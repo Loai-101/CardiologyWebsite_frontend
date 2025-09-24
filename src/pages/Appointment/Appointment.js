@@ -221,7 +221,7 @@ const Appointment = () => {
 │                        🏥 ABOUT CARDIOLOGY HOSPITAL                         │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
-│  Cardiology Hospital is a leading cardiac care facility dedicated to        │
+│  Dental Clinic is a leading dental care facility dedicated to              │
 │  providing comprehensive heart health services. Our expert team of          │
 │  cardiologists, cardiac surgeons, and specialists offer:                    │
 │                                                                             │
@@ -281,12 +281,12 @@ ${formData.message ? `┌──────────────────�
 
 Best regards,
 PMI IT system
-Cardiology Hospital Website
+Dental Clinic Website
 📧 info@cardiologyhospital.com | 📱 +973 17676765
 🌐 www.cardiologyhospital.com
 
 ═══════════════════════════════════════════════════════════════════════════════
-This email was sent automatically from your Cardiology Hospital website appointment form via PMI IT system.
+This email was sent automatically from your Dental Clinic website appointment form via PMI IT system.
       `;
 
       // Use a simple, reliable email service
@@ -296,7 +296,7 @@ This email was sent automatically from your Cardiology Hospital website appointm
       const emailData = {
         to: 'q9g8moh@gmail.com',
         from: formData.email,
-        subject: '🏥 New Appointment Request - Cardiology Hospital',
+        subject: '🏥 New Appointment Request - Dental Clinic',
         text: emailContent,
         name: `${formData.firstName} ${formData.lastName}`,
         phone: `${formData.countryCode} ${formData.phone}`,

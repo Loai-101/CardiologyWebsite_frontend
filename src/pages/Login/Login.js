@@ -110,7 +110,7 @@ const Login = () => {
           <div className="login-header">
             <h2 className="login-title">Admin Login</h2>
             <p className="login-subtitle">
-              Sign in to access the Cardiology Hospital admin panel
+              Sign in to access the Dental Clinic admin panel
             </p>
           </div>
           
