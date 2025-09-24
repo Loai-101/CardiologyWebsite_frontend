@@ -50,7 +50,7 @@
   transform: translateX(-50%);
   width: 100px;
   height: 4px;
-  background: linear-gradient(90deg, #D64040, #B71C1C);
+  background: linear-gradient(90deg, #4A90E2, #2E5BBA);
   border-radius: 2px;
   box-shadow: 0 2px 8px rgba(214, 64, 64, 0.3);
 }
@@ -142,7 +142,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #D64040, #B71C1C);
+  background: linear-gradient(135deg, #4A90E2, #2E5BBA);
   border-radius: 50%;
   color: white;
 }
@@ -209,7 +209,7 @@
   transform: translateY(-8px) scale(1.02);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
   background: white;
-  border-color: #D64040;
+  border-color: #4A90E2;
 }
 
 .contact-card-icon {
@@ -321,7 +321,7 @@
 
 .form-input:focus {
   outline: none;
-  border-color: #D64040;
+  border-color: #4A90E2;
   box-shadow: 0 0 0 3px rgba(214, 64, 64, 0.1);
 }
 
@@ -340,13 +340,13 @@
 
 .form-textarea:focus {
   outline: none;
-  border-color: #D64040;
+  border-color: #4A90E2;
   box-shadow: 0 0 0 3px rgba(214, 64, 64, 0.1);
 }
 
 /* Submit button */
 .submit-button {
-  background: linear-gradient(135deg, #D64040, #B71C1C);
+  background: linear-gradient(135deg, #4A90E2, #2E5BBA);
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -481,7 +481,7 @@
 }
 
 .map-link-content {
-  background: linear-gradient(135deg, #D64040, #B71C1C);
+  background: linear-gradient(135deg, #4A90E2, #2E5BBA);
   padding: 1.2rem 2.5rem;
   border-radius: 60px;
   display: flex;
@@ -511,7 +511,7 @@
 }
 
 .map-link:hover .map-link-content {
-  background: linear-gradient(135deg, #B71C1C, #D64040);
+  background: linear-gradient(135deg, #2E5BBA, #4A90E2);
   transform: scale(1.08) translateY(-2px);
   box-shadow: 0 12px 40px rgba(214, 64, 64, 0.6);
   border-color: rgba(255, 255, 255, 0.4);

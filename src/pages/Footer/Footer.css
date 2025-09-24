@@ -29,7 +29,7 @@
   font-size: 1.3rem;
   font-weight: 600;
   margin: 0 0 1rem 0;
-  color: #D64040;
+  color: #4A90E2;
 }
 
 .footer-section p {
@@ -66,7 +66,7 @@
 }
 
 .social-icon:hover {
-  background: #D64040;
+  background: #4A90E2;
   transform: translateY(-2px);
 }
 
@@ -93,7 +93,7 @@
 }
 
 .footer-link:hover {
-  color: #D64040;
+  color: #4A90E2;
   padding-left: 5px;
 }
 
@@ -120,7 +120,7 @@
 
 .footer-contact p svg {
   font-size: 16px;
-  color: #D64040;
+  color: #4A90E2;
   flex-shrink: 0;
 }
 
@@ -175,7 +175,7 @@
 }
 
  .footer-bottom-content .footer-link:hover {
-   color: #D64040;
+   color: #4A90E2;
  }
 
 /* PMI developer section */

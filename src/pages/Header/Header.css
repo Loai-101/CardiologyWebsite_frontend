@@ -4,7 +4,7 @@
   top: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(135deg, #D64040, #B71C1C);
+  background: linear-gradient(135deg, #4A90E2, #2E5BBA);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   z-index: 1000;
@@ -13,7 +13,7 @@
 }
 
 .header-scrolled {
-  background: linear-gradient(135deg, #B71C1C, #D64040);
+  background: linear-gradient(135deg, #2E5BBA, #4A90E2);
   box-shadow: 0 4px 25px rgba(214, 64, 64, 0.3);
 }
 
@@ -159,7 +159,7 @@
 
 /* Signup button special styling */
 .header-nav-link-signup {
-  background: linear-gradient(135deg, #D64040, #B71C1C);
+  background: linear-gradient(135deg, #4A90E2, #2E5BBA);
   color: white !important;
   font-weight: 600;
   border: 2px solid transparent;
@@ -172,14 +172,14 @@
 }
 
 .header-nav-link-signup:hover {
-  background: linear-gradient(135deg, #B71C1C, #D64040);
+  background: linear-gradient(135deg, #2E5BBA, #4A90E2);
   color: white !important;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(214, 64, 64, 0.4);
 }
 
 .header-nav-link-signup.header-nav-link-active {
-  background: linear-gradient(135deg, #B71C1C, #D64040);
+  background: linear-gradient(135deg, #2E5BBA, #4A90E2);
   color: white !important;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
@@ -305,7 +305,7 @@
 
 .admin-dropdown-item:hover {
   background: #f8f9fa;
-  color: #D64040;
+  color: #4A90E2;
   text-decoration: none;
 }
 
@@ -320,7 +320,7 @@
 }
 
 .admin-dropdown-logout:hover {
-  background: #ffebee;
+  background: #e3f2fd;
   color: #d32f2f;
 }
 
@@ -365,7 +365,7 @@
   top: 80px;
   left: 0;
   right: 0;
-  background: linear-gradient(135deg, #B71C1C, #D64040);
+  background: linear-gradient(135deg, #2E5BBA, #4A90E2);
   backdrop-filter: blur(10px);
   transform: translateY(-100%);
   opacity: 0;
@@ -423,7 +423,7 @@
 
 /* Mobile signup button special styling */
 .mobile-nav-link-signup {
-  background: linear-gradient(135deg, #D64040, #B71C1C);
+  background: linear-gradient(135deg, #4A90E2, #2E5BBA);
   color: white !important;
   font-weight: 600;
   margin: 0.5rem 1rem;
@@ -433,12 +433,12 @@
 }
 
 .mobile-nav-link-signup:hover {
-  background: linear-gradient(135deg, #B71C1C, #D64040);
+  background: linear-gradient(135deg, #2E5BBA, #4A90E2);
   color: white !important;
 }
 
 .mobile-nav-link-signup.mobile-nav-link-active {
-  background: linear-gradient(135deg, #B71C1C, #D64040);
+  background: linear-gradient(135deg, #2E5BBA, #4A90E2);
   color: white !important;
 }
 

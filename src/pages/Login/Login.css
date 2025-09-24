@@ -88,7 +88,7 @@
 
 .form-input:focus {
   outline: none;
-  border-color: #D64040;
+  border-color: #4A90E2;
   background: white;
   box-shadow: 0 0 0 3px rgba(214, 64, 64, 0.1);
 }
@@ -121,7 +121,7 @@
 }
 
 .password-toggle-button:hover {
-  color: #D64040;
+  color: #4A90E2;
 }
 
 /* Form Options */
@@ -142,7 +142,7 @@
 .checkbox-input {
   width: 18px;
   height: 18px;
-  accent-color: #D64040;
+  accent-color: #4A90E2;
 }
 
 .checkbox-label {
@@ -151,7 +151,7 @@
 }
 
 .forgot-password-link {
-  color: #D64040;
+  color: #4A90E2;
   text-decoration: none;
   font-size: 0.9rem;
   font-weight: 500;
@@ -171,7 +171,7 @@
 .submit-button {
   width: 100%;
   padding: 1rem 2rem;
-  background: linear-gradient(135deg, #D64040, #B71C1C);
+  background: linear-gradient(135deg, #4A90E2, #2E5BBA);
   color: white;
   border: none;
   border-radius: 12px;
@@ -184,7 +184,7 @@
 }
 
 .submit-button:hover:not(:disabled) {
-  background: linear-gradient(135deg, #B71C1C, #D64040);
+  background: linear-gradient(135deg, #2E5BBA, #4A90E2);
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(214, 64, 64, 0.3);
 }
@@ -266,7 +266,7 @@
 }
 
 .social-button:hover {
-  border-color: #D64040;
+  border-color: #4A90E2;
   background: #f8f9fa;
   transform: translateY(-1px);
 }
@@ -311,7 +311,7 @@
 
 .signup-link {
   display: inline-block;
-  background: linear-gradient(135deg, #D64040, #B71C1C);
+  background: linear-gradient(135deg, #4A90E2, #2E5BBA);
   color: white;
   text-decoration: none;
   padding: 0.8rem 1.5rem;
@@ -321,7 +321,7 @@
 }
 
 .signup-link:hover {
-  background: linear-gradient(135deg, #B71C1C, #D64040);
+  background: linear-gradient(135deg, #2E5BBA, #4A90E2);
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(214, 64, 64, 0.3);
 }
@@ -343,7 +343,7 @@
   content: '✓';
   position: absolute;
   left: 0;
-  color: #D64040;
+  color: #4A90E2;
   font-weight: bold;
 }
 

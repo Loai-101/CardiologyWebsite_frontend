@@ -47,7 +47,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  background: linear-gradient(135deg, #D64040 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #4A90E2 0%, #2E5BBA 100%);
   padding: 0.5rem 1rem;
   border-radius: 25px;
   box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
@@ -87,7 +87,7 @@
   transform: translateX(-50%);
   width: 80px;
   height: 4px;
-  background: linear-gradient(90deg, #D64040, #B71C1C);
+  background: linear-gradient(90deg, #4A90E2, #2E5BBA);
   border-radius: 2px;
 }
 
@@ -112,7 +112,7 @@
 
 /* Moving Services Bar */
 .moving-services-bar {
-  background: linear-gradient(135deg, #8B0000 0%, #D64040 50%, #B71C1C 100%);
+  background: linear-gradient(135deg, #1e3a8a 0%, #4A90E2 50%, #2E5BBA 100%);
   padding: 1rem 0;
   overflow: hidden;
   white-space: nowrap;
@@ -268,7 +268,7 @@
 
 .services-hero-button-primary {
   background: white;
-  color: #D64040;
+  color: #4A90E2;
 }
 
 .services-hero-button-primary:hover {
@@ -284,13 +284,13 @@
 
 .services-hero-button-secondary:hover {
   background: white;
-  color: #D64040;
+  color: #4A90E2;
   transform: translateY(-3px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 .contact-button {
-  background: linear-gradient(135deg, #D64040, #B71C1C);
+  background: linear-gradient(135deg, #4A90E2, #2E5BBA);
   color: white;
   border: 2px solid transparent;
   padding: 1rem 2rem;
@@ -322,7 +322,7 @@
 }
 
 .contact-button:hover {
-  background: linear-gradient(135deg, #B71C1C, #D64040);
+  background: linear-gradient(135deg, #2E5BBA, #4A90E2);
   transform: translateY(-3px) scale(1.05);
   box-shadow: 0 12px 35px rgba(214, 64, 64, 0.5);
   border-color: rgba(255, 255, 255, 0.3);
@@ -368,7 +368,7 @@
 .service-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-  border-color: #D64040;
+  border-color: #4A90E2;
 }
 
 /* Active service card */
@@ -388,7 +388,7 @@
 .service-icon {
   width: 80px;
   height: 80px;
-  background: linear-gradient(135deg, #D64040, #B71C1C);
+  background: linear-gradient(135deg, #4A90E2, #2E5BBA);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -580,7 +580,7 @@
 .service-popup-icon {
   width: 80px;
   height: 80px;
-  background: linear-gradient(135deg, #D64040, #B71C1C);
+  background: linear-gradient(135deg, #4A90E2, #2E5BBA);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -670,7 +670,7 @@
   height: 60px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #D64040;
+  border: 3px solid #4A90E2;
   transition: all 0.3s ease;
 }
 
@@ -706,7 +706,7 @@
   background: #f8f9fa;
   padding: 1.5rem;
   border-radius: 12px;
-  border-left: 4px solid #D64040;
+  border-left: 4px solid #4A90E2;
 }
 
 /* Responsive design for tablets */

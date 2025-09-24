@@ -50,7 +50,7 @@
   transform: translateX(-50%);
   width: 80px;
   height: 4px;
-  background: linear-gradient(90deg, #D64040, #B71C1C);
+  background: linear-gradient(90deg, #4A90E2, #2E5BBA);
   border-radius: 2px;
 }
 
@@ -96,7 +96,7 @@
 .doctor-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-  border-color: #D64040;
+  border-color: #4A90E2;
 }
 
 @keyframes fadeInUp {
@@ -133,7 +133,7 @@
   margin: 0 auto;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  border: 3px solid #D64040;
+  border: 3px solid #4A90E2;
   background-color: #f8f9fa;
 }
 
@@ -318,7 +318,7 @@
   background: #f8f9fa;
   padding: 1.5rem;
   border-radius: 12px;
-  border-left: 4px solid #D64040;
+  border-left: 4px solid #4A90E2;
 }
 
 .popup-description h4 {

@@ -50,7 +50,7 @@
   transform: translateX(-50%);
   width: 80px;
   height: 4px;
-  background: linear-gradient(90deg, #D64040, #B71C1C);
+  background: linear-gradient(90deg, #4A90E2, #2E5BBA);
   border-radius: 2px;
 }
 
@@ -120,7 +120,7 @@
 
 .form-input:focus {
   outline: none;
-  border-color: #D64040;
+  border-color: #4A90E2;
   background: white;
   box-shadow: 0 0 0 3px rgba(214, 64, 64, 0.1);
 }
@@ -142,7 +142,7 @@
 
 .form-select:focus {
   outline: none;
-  border-color: #D64040;
+  border-color: #4A90E2;
   background: white;
   box-shadow: 0 0 0 3px rgba(214, 64, 64, 0.1);
 }
@@ -162,7 +162,7 @@
 
 .form-textarea:focus {
   outline: none;
-  border-color: #D64040;
+  border-color: #4A90E2;
   background: white;
   box-shadow: 0 0 0 3px rgba(214, 64, 64, 0.1);
 }
@@ -192,7 +192,7 @@
 
 .country-select:focus {
   outline: none;
-  border-color: #D64040;
+  border-color: #4A90E2;
   background: white;
   box-shadow: 0 0 0 3px rgba(214, 64, 64, 0.1);
 }
@@ -223,7 +223,7 @@
 .submit-button {
   width: 100%;
   padding: 1rem 2rem;
-  background: linear-gradient(135deg, #D64040, #B71C1C);
+  background: linear-gradient(135deg, #4A90E2, #2E5BBA);
   color: white;
   border: none;
   border-radius: 8px;
@@ -300,7 +300,7 @@
   left: 0;
   width: 40px;
   height: 3px;
-  background: linear-gradient(90deg, #D64040, #B71C1C);
+  background: linear-gradient(90deg, #4A90E2, #2E5BBA);
   border-radius: 2px;
 }
 
