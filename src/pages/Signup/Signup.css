@@ -1,0 +1,489 @@
+/* Signup Page Styles */
+.signup-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding-top: 100px;
+  padding-bottom: 2rem;
+}
+
+.signup {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+
+.signup-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.signup-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.signup-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.signup-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.signup-subtitle {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  margin: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.signup-content {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+/* Signup Form Styles */
+.signup-form-container {
+  background: white;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-label {
+  font-weight: 600;
+  color: #2c3e50;
+  font-size: 1rem;
+}
+
+.form-input {
+  padding: 1rem;
+  border: 2px solid #e1e8ed;
+  border-radius: 12px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background: #f8f9fa;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #D64040;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(214, 64, 64, 0.1);
+}
+
+.form-input::placeholder {
+  color: #95a5a6;
+}
+
+.form-select {
+  padding: 1rem;
+  border: 2px solid #e1e8ed;
+  border-radius: 12px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background: #f8f9fa;
+  cursor: pointer;
+}
+
+.form-select:focus {
+  outline: none;
+  border-color: #D64040;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(214, 64, 64, 0.1);
+}
+
+/* Phone Input Group */
+.phone-input-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.country-select {
+  flex: 0 0 auto;
+  padding: 1rem;
+  border: 2px solid #e1e8ed;
+  border-radius: 12px;
+  font-size: 1rem;
+  background: #f8f9fa;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.country-select:focus {
+  outline: none;
+  border-color: #D64040;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(214, 64, 64, 0.1);
+}
+
+.phone-input {
+  flex: 1;
+}
+
+/* Password Input Group */
+.password-input-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-input {
+  padding-right: 3rem;
+  width: 100%;
+}
+
+.password-toggle-button {
+  position: absolute;
+  right: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  transition: color 0.3s ease;
+}
+
+.password-toggle-button:hover {
+  color: #D64040;
+}
+
+/* Form Help Text */
+.form-help {
+  font-size: 0.8rem;
+  color: #7f8c8d;
+  margin-top: 0.25rem;
+}
+
+.form-help.error {
+  color: #e74c3c;
+}
+
+/* Checkbox Container */
+.checkbox-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  cursor: pointer;
+  line-height: 1.4;
+}
+
+.checkbox-input {
+  width: 18px;
+  height: 18px;
+  accent-color: #D64040;
+  margin-top: 0.1rem;
+  flex-shrink: 0;
+}
+
+.checkbox-label {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+.terms-link {
+  color: #D64040;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.terms-link:hover {
+  color: #B71C1C;
+  text-decoration: underline;
+}
+
+/* Submit Button */
+.form-submit {
+  margin-top: 1rem;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #D64040, #B71C1C);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.submit-button:hover:not(:disabled) {
+  background: linear-gradient(135deg, #B71C1C, #D64040);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(214, 64, 64, 0.3);
+}
+
+.submit-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.submit-button.submitting {
+  background: linear-gradient(135deg, #95a5a6, #7f8c8d);
+}
+
+/* Status Messages */
+.success-message {
+  background: #d4edda;
+  color: #155724;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #c3e6cb;
+  margin-top: 1rem;
+}
+
+.error-message {
+  background: #f8d7da;
+  color: #721c24;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #f5c6cb;
+  margin-top: 1rem;
+}
+
+/* Admin Login Section */
+.admin-login-section {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e1e8ed;
+}
+
+.admin-login-divider {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+
+.admin-login-divider span {
+  background: white;
+  padding: 0 1rem;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.admin-login-info {
+  text-align: center;
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #e9ecef;
+}
+
+.admin-login-text {
+  color: #5a6c7d;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.admin-login-text strong {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.admin-login-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #6c757d, #495057);
+  color: white;
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.admin-login-button:hover {
+  background: linear-gradient(135deg, #495057, #343a40);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(108, 117, 125, 0.3);
+  color: white;
+  text-decoration: none;
+}
+
+.admin-login-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(108, 117, 125, 0.3);
+}
+
+
+
+
+/* Security Features */
+.security-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.security-badge {
+  background: #e8f5e8;
+  color: #27ae60;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid #d5f4e6;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .signup-form-container {
+    padding: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .signup-page {
+    padding-top: 80px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .signup-container {
+    padding: 0 1rem;
+  }
+  
+  .signup-title {
+    font-size: 2rem;
+  }
+  
+  .signup-subtitle {
+    font-size: 1rem;
+  }
+  
+  .signup-form-container {
+    padding: 2rem;
+  }
+  
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .phone-input-group {
+    flex-direction: column;
+  }
+  
+  .country-select {
+    width: 100%;
+  }
+  
+  
+  .security-features {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .signup-page {
+    padding-top: 70px;
+  }
+  
+  .signup-title {
+    font-size: 1.8rem;
+  }
+  
+  .signup-form-container {
+    padding: 1.5rem;
+  }
+  
+  
+  .submit-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+  
+  .form-input,
+  .form-select,
+  .country-select {
+    padding: 0.8rem;
+  }
+  
+  .admin-login-info {
+    padding: 1rem;
+  }
+  
+  .admin-login-text {
+    font-size: 0.8rem;
+  }
+  
+  .admin-login-button {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* Address Section Styles */
+.form-section {
+  margin-bottom: 2rem;
+}
+
+.form-section-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #3498db;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.form-section-title::before {
+  content: "📍";
+  font-size: 1.2rem;
+}
+
+/* Responsive adjustments for address section */
+@media (max-width: 768px) {
+  .form-section-title {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-section-title {
+    font-size: 1.1rem;
+  }
+}
